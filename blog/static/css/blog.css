@@ -11,15 +11,20 @@
     font-family: 'Roboto Mono', sans-serif;
 }
 
+.headline {
+    margin-right: 1em;
+    text-align: right;
+}
+
 .content {
-    margin-left: 50px;
     text-align: justify;
+    margin-top: 2.8rem;
+
 }
 
 h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
 }
-
 
 .date {
     color: #4169E1;
@@ -37,7 +42,7 @@ h1, h2, h3, h4 {
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #FFFFFF;
-    float: right;
+    float: left;
     font-size: 15pt;
     margin-right: 20px;
 }
@@ -56,5 +61,13 @@ h1, h2, h3, h4 {
 
 .commentlink {
     color: #4169E1;
-    font-size: 12px;
+    font-size: 12px;}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-button {
+    margin-top: 10px;
 }
