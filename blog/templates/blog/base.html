@@ -11,12 +11,14 @@
     </head>
     <body>
         <div class="page-header">
+
         {% if user.is_authenticated %}
             <a href="{% url 'post_draft_list' %}" class="top-menu top-button"><i class="far fa-edit"></i></a>    
             <a href="{% url 'post_new' %}" class="top-menu top-button"><i class="far fa-plus-square"></i></a>
             <p class="top-menu top-button"> Hello {{ user.username }} <small>(<a href="{% url 'logout' %}">Log out</a>)</small></p>
         {% else %}
             <a href="{% url 'login' %}" class="top-menu top-button"><i class="fas fa-lock"></i></a>
+            <a href="https://twitter.com/mia_dev1" id="twitter" class="top-menu top-button" target="_blank"><i class="fab fa-twitter-square"></i></a>    
         {% endif %}
             <h1 class="headline"><a href="/">Mias dev_blog</a></h1>
         </div>

@@ -40,11 +40,16 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
+.top-menu, .top-menu:visited {
     color: #FFFFFF;
     float: left;
-    font-size: 15pt;
+    font-size: 17pt;
     margin-right: 20px;
+    transition-duration: 0,4s;
+}
+
+.top-menu:hover {
+    font-size: 25pt;
 }
 
 .post {
@@ -70,4 +75,8 @@ h1, h2, h3, h4 {
 
 .top-button {
     margin-top: 10px;
+}
+
+#twitter {
+    color: #1DA1F2;
 }
