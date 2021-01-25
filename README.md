@@ -1,4 +1,4 @@
-# dev_blog
+# Django Blog
 
 I created this blog using Django, HTML and CSS with the very helpful tutorial from djangogirls:
 https://tutorial.djangogirls.org/en/
